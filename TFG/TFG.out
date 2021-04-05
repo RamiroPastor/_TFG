@@ -1,0 +1,134 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction to Categories}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Category}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Definition}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{Unicity of neutral elements and examples}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.3}{Isomorphisms and Automorphisms}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.4}{Groupoids and SubcategoriesFor the definition of fundamental groupoid of a topological space, see appendix A}{section.1.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Functors and natural transformations}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.2.1}{Definition}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.2}{Examples of functors}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.3}{The dual category}{section.1.2}% 10
+\BOOKMARK [2][-]{subsection.1.2.4}{Natural transformations}{section.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.2.5}{Composition of functors and natural transformations}{section.1.2}% 12
+\BOOKMARK [1][-]{section.1.3}{Commutative diagram and monad definition}{chapter.1}% 13
+\BOOKMARK [0][-]{chapter.2}{Haskell Monad class}{}% 14
+\BOOKMARK [1][-]{section.2.1}{Why? the IO monad}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.2}{What?}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.1}{Starring: Monad typeclass}{section.2.2}% 17
+\BOOKMARK [1][-]{section.2.3}{Pre-example with Maybe}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.3.1}{Notions of Computation}{section.2.3}% 19
+\BOOKMARK [1][-]{section.2.4}{Who?}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.5}{How?}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.5.1}{The Rules }{section.2.5}% 22
+\BOOKMARK [2][-]{subsection.2.5.2}{Monadic composition }{section.2.5}% 23
+\BOOKMARK [2][-]{subsection.2.5.3}{Alternative definitions}{section.2.5}% 24
+\BOOKMARK [2][-]{subsection.2.5.4}{Note: avoiding the prerequisites}{section.2.5}% 25
+\BOOKMARK [1][-]{section.2.6}{Prerequisites: Functor and Applicative typeclasses}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.6.1}{Applicative functor laws}{section.2.6}% 27
+\BOOKMARK [1][-]{section.2.7}{do notation}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.7.1}{Translating the then operator}{section.2.7}% 29
+\BOOKMARK [2][-]{subsection.2.7.2}{Translating the bind operator}{section.2.7}% 30
+\BOOKMARK [2][-]{subsection.2.7.3}{The fail method}{section.2.7}% 31
+\BOOKMARK [2][-]{subsection.2.7.4}{Example: user-interactive program}{section.2.7}% 32
+\BOOKMARK [2][-]{subsection.2.7.5}{Returning values}{section.2.7}% 33
+\BOOKMARK [2][-]{subsection.2.7.6}{Just sugar}{section.2.7}% 34
+\BOOKMARK [1][-]{section.2.8}{Additive monads \(MonadPlus\)}{chapter.2}% 35
+\BOOKMARK [2][-]{subsection.2.8.1}{MonadPlus definition}{section.2.8}% 36
+\BOOKMARK [2][-]{subsection.2.8.2}{Example: parallel parsing}{section.2.8}% 37
+\BOOKMARK [2][-]{subsection.2.8.3}{The MonadPlus laws}{section.2.8}% 38
+\BOOKMARK [2][-]{subsection.2.8.4}{Useful functions}{section.2.8}% 39
+\BOOKMARK [2][-]{subsection.2.8.5}{Relationship with monoids}{section.2.8}% 40
+\BOOKMARK [1][-]{section.2.9}{Monad transformers}{chapter.2}% 41
+\BOOKMARK [2][-]{subsection.2.9.1}{Passphrase validation}{section.2.9}% 42
+\BOOKMARK [2][-]{subsection.2.9.2}{A simple monad transformer: MaybeT}{section.2.9}% 43
+\BOOKMARK [2][-]{subsection.2.9.3}{A plethora of transformers}{section.2.9}% 44
+\BOOKMARK [2][-]{subsection.2.9.4}{Lifting}{section.2.9}% 45
+\BOOKMARK [2][-]{subsection.2.9.5}{Implementing transformers}{section.2.9}% 46
+\BOOKMARK [0][-]{chapter.3}{Last Steps}{}% 47
+\BOOKMARK [1][-]{section.3.1}{Revisiting the Applicative class}{chapter.3}% 48
+\BOOKMARK [2][-]{subsection.3.1.1}{Applicative recap}{section.3.1}% 49
+\BOOKMARK [2][-]{subsection.3.1.2}{Deja vu}{section.3.1}% 50
+\BOOKMARK [2][-]{subsection.3.1.3}{ZipList}{section.3.1}% 51
+\BOOKMARK [2][-]{subsection.3.1.4}{Sequencing of effects}{section.3.1}% 52
+\BOOKMARK [2][-]{subsection.3.1.5}{A sliding scale of power}{section.3.1}% 53
+\BOOKMARK [2][-]{subsection.3.1.6}{The monoidal presentation}{section.3.1}% 54
+\BOOKMARK [2][-]{subsection.3.1.7}{Class heritage}{section.3.1}% 55
+\BOOKMARK [1][-]{section.3.2}{Still for the curious: The Hask Category}{chapter.3}% 56
+\BOOKMARK [2][-]{subsection.3.2.1}{Checking that Hask is a category}{section.3.2}% 57
+\BOOKMARK [2][-]{subsection.3.2.2}{Functors on Hask}{section.3.2}% 58
+\BOOKMARK [2][-]{subsection.3.2.3}{Monads}{section.3.2}% 59
+\BOOKMARK [2][-]{subsection.3.2.4}{The monad laws and their importance}{section.3.2}% 60
+\BOOKMARK [0][-]{appendix.A}{Appendix: The fundamental groupoid}{}% 61
+\BOOKMARK [0][-]{appendix.B}{Appendix: Full Monad documentation}{}% 62
+\BOOKMARK [0][-]{appendix.C}{Appendix: the Monoid type class}{}% 63
+\BOOKMARK [0][-]{appendix.D}{Appendix: the Maybe monad}{}% 64
+\BOOKMARK [1][-]{section.D.1}{Safe functions}{appendix.D}% 65
+\BOOKMARK [1][-]{section.D.2}{Lookup tables}{appendix.D}% 66
+\BOOKMARK [1][-]{section.D.3}{Open monads}{appendix.D}% 67
+\BOOKMARK [1][-]{section.D.4}{Maybe and safety}{appendix.D}% 68
+\BOOKMARK [0][-]{appendix.E}{Appendix: The List monad}{}% 69
+\BOOKMARK [1][-]{section.E.1}{List instantiated as monad}{appendix.E}% 70
+\BOOKMARK [1][-]{section.E.2}{Board game example}{appendix.E}% 71
+\BOOKMARK [1][-]{section.E.3}{List comprehensions}{appendix.E}% 72
+\BOOKMARK [0][-]{appendix.F}{Appendix: The IO \(Input/Output\) monad}{}% 73
+\BOOKMARK [1][-]{section.F.1}{Input/output and purity}{appendix.F}% 74
+\BOOKMARK [1][-]{section.F.2}{Combining functions and I/O actions}{appendix.F}% 75
+\BOOKMARK [1][-]{section.F.3}{The universe as part of our program}{appendix.F}% 76
+\BOOKMARK [1][-]{section.F.4}{Pure and impure}{appendix.F}% 77
+\BOOKMARK [1][-]{section.F.5}{Functional and imperative}{appendix.F}% 78
+\BOOKMARK [1][-]{section.F.6}{I/O in the libraries}{appendix.F}% 79
+\BOOKMARK [1][-]{section.F.7}{monadic control structures}{appendix.F}% 80
+\BOOKMARK [0][-]{appendix.G}{Appendix: The IO library}{}% 81
+\BOOKMARK [1][-]{section.G.1}{Bracket}{appendix.G}% 82
+\BOOKMARK [1][-]{section.G.2}{A file reading program}{appendix.G}% 83
+\BOOKMARK [0][-]{appendix.H}{Appendix: The State monad \(Random Number Generation\)}{}% 84
+\BOOKMARK [1][-]{section.H.1}{Pseudo-Random Numbers}{appendix.H}% 85
+\BOOKMARK [2][-]{subsection.H.1.1}{Implementation in Haskell}{section.H.1}% 86
+\BOOKMARK [2][-]{subsection.H.1.2}{Example: rolling dice}{section.H.1}% 87
+\BOOKMARK [2][-]{subsection.H.1.3}{Dice without IO}{section.H.1}% 88
+\BOOKMARK [1][-]{section.H.2}{Introducing State}{appendix.H}% 89
+\BOOKMARK [2][-]{subsection.H.2.1}{Where did the State constructor go?}{section.H.2}% 90
+\BOOKMARK [2][-]{subsection.H.2.2}{Instantiating the monad}{section.H.2}% 91
+\BOOKMARK [2][-]{subsection.H.2.3}{Setting and accessing the State}{section.H.2}% 92
+\BOOKMARK [2][-]{subsection.H.2.4}{Getting Values and State}{section.H.2}% 93
+\BOOKMARK [2][-]{subsection.H.2.5}{Dice and state}{section.H.2}% 94
+\BOOKMARK [1][-]{section.H.3}{Pseudo-random values of different types}{appendix.H}% 95
+\BOOKMARK [0][-]{appendix.I}{The System.Random library}{}% 96
+\BOOKMARK [1][-]{section.I.1}{The RandomGen class}{appendix.I}% 97
+\BOOKMARK [1][-]{section.I.2}{The type StdGen and the global number generator}{appendix.I}% 98
+\BOOKMARK [2][-]{subsection.I.2.1}{StdGen}{section.I.2}% 99
+\BOOKMARK [2][-]{subsection.I.2.2}{The global number generator}{section.I.2}% 100
+\BOOKMARK [1][-]{section.I.3}{Random vaues of other types: the Random class}{appendix.I}% 101
+\BOOKMARK [1][-]{section.I.4}{Other functions \(that are not exported\)}{appendix.I}% 102
+\BOOKMARK [2][-]{subsection.I.4.1}{The global number generator coding}{section.I.4}% 103
+\BOOKMARK [0][-]{appendix.J}{Appendix: Summary of functions }{}% 104
+\BOOKMARK [1][-]{section.J.1}{Functor context}{appendix.J}% 105
+\BOOKMARK [1][-]{section.J.2}{Applicative context}{appendix.J}% 106
+\BOOKMARK [1][-]{section.J.3}{Monad context}{appendix.J}% 107
+\BOOKMARK [1][-]{section.J.4}{Alternative context}{appendix.J}% 108
+\BOOKMARK [1][-]{section.J.5}{Module System.Random}{appendix.J}% 109
+\BOOKMARK [1][-]{section.J.6}{Module Control.Monad}{appendix.J}% 110
+\BOOKMARK [0][-]{appendix.K}{Exercises}{}% 111
+\BOOKMARK [1][-]{section.K.1}{Basic Functor and Applicative exercises}{appendix.K}% 112
+\BOOKMARK [1][-]{section.K.2}{Advanced Monad and Applicative exercises}{appendix.K}% 113
+\BOOKMARK [1][-]{section.K.3}{State exercises}{appendix.K}% 114
+\BOOKMARK [1][-]{section.K.4}{MonadPlus exercises}{appendix.K}% 115
+\BOOKMARK [1][-]{section.K.5}{Monad transformers exercises'}{appendix.K}% 116
+\BOOKMARK [1][-]{section.K.6}{Hask category exercises}{appendix.K}% 117
+\BOOKMARK [0][-]{appendix.L}{My solutions for the exercises}{}% 118
+\BOOKMARK [1][-]{section.L.1}{Basic Functor and Applicative solutions}{appendix.L}% 119
+\BOOKMARK [1][-]{section.L.2}{Advanced Monad and Applicative solutions}{appendix.L}% 120
+\BOOKMARK [1][-]{section.L.3}{State exercises}{appendix.L}% 121
+\BOOKMARK [1][-]{section.L.4}{MonadPlus exercises}{appendix.L}% 122
+\BOOKMARK [1][-]{section.L.5}{Monad transformers exercises'}{appendix.L}% 123
+\BOOKMARK [1][-]{section.L.6}{Hask category exercises}{appendix.L}% 124
+\BOOKMARK [0][-]{appendix.M}{FAQS}{}% 125
+\BOOKMARK [1][-]{section.M.1}{Where does the term ``Monad'' come from?}{appendix.M}% 126
+\BOOKMARK [1][-]{section.M.2}{A monad is just a monoid in the category of endofunctors, what's the problem?}{appendix.M}% 127
+\BOOKMARK [1][-]{section.M.3}{How to extract value from monadic action?}{appendix.M}% 128
+\BOOKMARK [1][-]{section.M.4}{How is p pronounced?}{appendix.M}% 129
+\BOOKMARK [1][-]{section.M.5}{Distinction between typeclasses MonadPlus, Alternative and Monoid?}{appendix.M}% 130
+\BOOKMARK [1][-]{section.M.6}{Functions from `Alternative' type class}{appendix.M}% 131
+\BOOKMARK [1][-]{section.M.7}{Confused by the meaning of the `Alternative' type class and its relationship with other type classes}{appendix.M}% 132
+\BOOKMARK [1][-]{section.M.8}{What's wrong with GHC Haskell's current constraint system?}{appendix.M}% 133
+\BOOKMARK [1][-]{section.M.9}{Lax monoidal functors with a different monoidal structure}{appendix.M}% 134

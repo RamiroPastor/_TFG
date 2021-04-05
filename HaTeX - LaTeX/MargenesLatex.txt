@@ -1,0 +1,2 @@
+\usepackage[a4paper, width=18, height=27]{geometry}
+a4 = 21 x 29 aprox

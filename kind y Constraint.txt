@@ -1,0 +1,43 @@
+comando :kind (o tambien :k) del GHCi
+
+Prelude> :k Bool
+Bool :: *
+Prelude> :k Int
+Int :: *
+Prelude> :k []
+[] :: * -> *
+Prelude> :k [Int]
+[Int] :: *
+Prelude> :k Maybe
+Maybe :: * -> *
+Prelude> :k (,,,,,)
+(,,,,,) :: * -> * -> * -> * -> * -> * -> *
+Prelude> :k Eq
+Eq :: * -> Constraint
+Prelude> :k Ord
+Ord :: * -> Constraint
+Prelude> :k Num
+Num :: * -> Constraint
+Prelude> :k Show
+Show :: * -> Constraint
+Prelude> :k Functor
+Functor :: (* -> *) -> Constraint
+Prelude> :k Monad
+Monad :: (* -> *) -> Constraint
+Prelude> :t Constraint
+
+<interactive>:1:1: Not in scope: data constructor ‘Constraint’
+Prelude> :k Constraint
+
+<interactive>:1:1:
+    Not in scope: type constructor or class ‘Constraint’
+Prelude> :m GHC.Prim  --- ESTE MODULO ES PARA LAS "BUILT-IN THINGS"
+Prelude GHC.Prim> :k Constraint
+Constraint :: BOX
+Prelude GHC.Prim> :k BOX
+BOX :: BOX
+
+
+Prelude> :m Data.Monoid
+Prelude Data.Monoid> :k Monoid
+Monoid :: * -> Constraint
